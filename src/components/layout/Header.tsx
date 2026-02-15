@@ -47,7 +47,7 @@ export default function Header() {
 
           <Link
             href="/apply"
-            className="hidden md:inline-flex items-center px-6 py-2.5 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-colors duration-200"
+            className="hidden md:inline-flex items-center px-6 py-2.5 bg-slate-600 text-white font-semibold rounded-lg hover:bg-slate-700 transition-colors duration-200"
             onClick={trackApplyClick}
           >
             Apply Now

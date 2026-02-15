@@ -1,14 +1,20 @@
 // src/config/profile.config.ts
 export const profileConfig = {
-  name: 'John Smith',
+  name: 'Joseph Cherian',
   title: 'Mortgage Loan Officer',
-  credentials: 'NMLS #123456',
-  photo: '/images/profile.png',
+  credentials: 'Licensed Loan Officer | NMLS #1420671',
+  photo: '/images/profile-v2.png',
   
   contact: {
-    phone: '+15551234567',
-    whatsapp: '15551234567', // No + or formatting
-    email: 'john.smith@example.com',
+    phone: '+1 (973) 634-6093',
+    whatsapp: '19736346093', // No + or formatting
+    email: 'cheriantjoseph@gmail.com',
+  },
+
+  company: {
+    name: 'Go Rascal Mortgage',
+    nmls: 'NMLS #2072896',
+    officeAddress: '',
   },
   
   social: {
@@ -24,7 +30,8 @@ export const profileConfig = {
   },
   
   credentials_list: [
-    'NMLS Licensed Loan Officer #123456',
+    'Licensed Loan Officer | NMLS #1420671',
+    'Go Rascal Mortgage | NMLS #2072896',
     'Certified Mortgage Planning Specialist',
     'Member, National Association of Mortgage Brokers',
   ],

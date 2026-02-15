@@ -15,7 +15,7 @@ export const regions: Region[] = [
     displayName: 'Serving New Jersey',
     cities: ['Newark', 'Jersey City', 'Paterson', 'Elizabeth'],
     ctaText: 'Get Pre-Approved in NJ',
-    disclaimer: 'Licensed to originate loans in New Jersey (NMLS #123456)',
+    disclaimer: 'Licensed to originate loans in New Jersey (NMLS #1420671)',
   },
   {
     code: 'ny',
@@ -23,7 +23,7 @@ export const regions: Region[] = [
     displayName: 'Serving New York Metro',
     cities: ['New York City', 'Brooklyn', 'Queens', 'Bronx'],
     ctaText: 'Start Your NY Application',
-    disclaimer: 'Licensed to originate loans in New York (NMLS #123456)',
+    disclaimer: 'Licensed to originate loans in New York (NMLS #1420671)',
   },
   {
     code: 'pa',

@@ -54,7 +54,7 @@ export default function Hero({ regionOverride }: HeroProps){
                     <div className ="flex flex-col sm:flex-row items-center justify-center gap-4">
                         <Link
                             href="/apply"
-                            className="w-full sm:w-auto px-8 py-4 bg-white text-primary-600 font-semibold rounded-lg hover:bg-blue-50 transition-all duration-200 shadow-lg hover:shadow-xl transforme hover:-translate-y-0.5"
+                            className="w-full sm:w-auto px-8 py-4 bg-white text-slate-800 font-semibold rounded-lg hover:bg-slate-100 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
                             onClick={() => {
                                 if (typeof window !== 'undefined' && window.gtag) {
                                     window.gtag('event', 'cta_click', {

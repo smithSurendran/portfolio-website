@@ -53,7 +53,7 @@ export default function IdentityCard() {
     >
       {/* Profile Photo */}
       <div className="flex justify-center mb-6">
-        <div className="relative w-32 h-32 rounded-full overflow-hidden ring-4 ring-primary-100">
+        <div className="relative w-40 h-40 rounded-xl overflow-hidden ring-4 ring-primary-100">
           <Image
             src={photo}
             alt={name}

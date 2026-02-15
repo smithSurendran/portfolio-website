@@ -3,6 +3,7 @@
 import { QRCodeSVG } from 'qrcode.react'
 import { motion } from 'framer-motion'
 import { siteConfig } from '@/config/site.config'
+import { profileConfig } from '@/config/profile.config'
 
 export default function QRBlock(){
     //Generate tracking URL instead of direct social link
@@ -25,7 +26,7 @@ export default function QRBlock(){
                         level='H'
                         includeMargin={false}
                         imageSettings={{
-                            src:'/images/profile.png', // Optional logo in center
+                            src: profileConfig.photo, // Optional logo in center
                             height: 40,
                             width:40,
                             excavate: true,
