@@ -1,0 +1,25 @@
+/* src/styles/animations.css */
+.card-hover {
+  @apply transition-all duration-300;
+}
+
+.card-hover:hover {
+  @apply shadow-xl -translate-y-1;
+}
+
+.button-press:active {
+  @apply scale-95;
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
