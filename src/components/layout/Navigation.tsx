@@ -30,8 +30,10 @@ export default function Navigation({ className, listClassName, mobileOnNavigate 
                 href={item.href}
                 onClick={mobileOnNavigate}
                 className={clsx(
-                  'font-medium transition-colors duration-200',
-                  isActive ? 'text-primary-600' : 'text-gray-700 hover:text-primary-600',
+                  'text-base md:text-[17px] transition-colors duration-200',
+                  isActive
+                    ? 'font-semibold text-slate-900'
+                    : 'font-medium text-slate-600 hover:text-slate-900',
                 )}
                 aria-current={isActive ? 'page' : undefined}
               >
