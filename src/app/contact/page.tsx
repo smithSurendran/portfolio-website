@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   return (
-    <div className="py-16 md:py-24">
+    <div className="py-16 md:py-24 bg-slate-50">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-12 text-center">
           Contact Joseph Cherian
@@ -33,13 +33,13 @@ export default function ContactPage() {
           <div className="space-y-4">
             <div>
               <h3 className="font-semibold text-gray-900 mb-1">Phone</h3>
-              <a href={`tel:${profileConfig.contact.phone}`} className="text-primary-600">
+              <a href={`tel:${profileConfig.contact.phone}`} className="text-blue-700 hover:text-blue-800 transition-colors">
                 {profileConfig.contact.phone}
               </a>
             </div>
             <div>
               <h3 className="font-semibold text-gray-900 mb-1">Email</h3>
-              <a href={`mailto:${profileConfig.contact.email}`} className="text-primary-600">
+              <a href={`mailto:${profileConfig.contact.email}`} className="text-blue-700 hover:text-blue-800 transition-colors">
                 {profileConfig.contact.email}
               </a>
             </div>

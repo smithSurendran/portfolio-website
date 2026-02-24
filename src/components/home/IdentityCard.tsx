@@ -77,12 +77,12 @@ export default function IdentityCard() {
       {/* Divider */}
       <div className="my-6 border-t border-gray-200"></div>
 
-      {/* Contact Actions */}
-      <div className="flex justify-center gap-4 mb-6">
+      {/* Contact + Social Actions */}
+      <div className="flex items-center justify-center gap-3 mb-2">
         <a
           href={`tel:${contact.phone}`}
           onClick={() => handleContactClick('phone')}
-          className="flex items-center justify-center w-12 h-12 bg-primary-100 text-primary-600 rounded-full hover:bg-primary-200 transition-colors duration-200"
+          className="flex items-center justify-center w-10 h-10 bg-primary-100 text-primary-600 rounded-full hover:bg-primary-200 transition-colors duration-200"
           aria-label="Call"
         >
           <PhoneIcon className="w-5 h-5" />
@@ -93,7 +93,7 @@ export default function IdentityCard() {
           target="_blank"
           rel="noopener noreferrer"
           onClick={() => handleContactClick('whatsapp')}
-          className="flex items-center justify-center w-12 h-12 bg-green-100 text-green-600 rounded-full hover:bg-green-200 transition-colors duration-200"
+          className="flex items-center justify-center w-10 h-10 bg-green-100 text-green-600 rounded-full hover:bg-green-200 transition-colors duration-200"
           aria-label="WhatsApp"
         >
           {socialIcons.whatsapp}
@@ -102,21 +102,17 @@ export default function IdentityCard() {
         <a
           href={`mailto:${contact.email}`}
           onClick={() => handleContactClick('email')}
-          className="flex items-center justify-center w-12 h-12 bg-blue-100 text-blue-600 rounded-full hover:bg-blue-200 transition-colors duration-200"
+          className="flex items-center justify-center w-10 h-10 bg-blue-100 text-blue-600 rounded-full hover:bg-blue-200 transition-colors duration-200"
           aria-label="Email"
         >
           <EnvelopeIcon className="w-5 h-5" />
         </a>
-      </div>
-
-      {/* Social Media Links */}
-      <div className="flex justify-center gap-3">
         {social.facebook && (
           <a
             href={social.facebook}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-600 hover:text-blue-600 transition-colors duration-200"
+            className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-100 text-gray-600 hover:text-blue-600 hover:bg-gray-200 transition-colors duration-200"
             aria-label="Facebook"
           >
             {socialIcons.facebook}
@@ -127,7 +123,7 @@ export default function IdentityCard() {
             href={social.instagram}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-600 hover:text-pink-600 transition-colors duration-200"
+            className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-100 text-gray-600 hover:text-pink-600 hover:bg-gray-200 transition-colors duration-200"
             aria-label="Instagram"
           >
             {socialIcons.instagram}
@@ -138,7 +134,7 @@ export default function IdentityCard() {
             href={social.tiktok}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-600 hover:text-black transition-colors duration-200"
+            className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-100 text-gray-600 hover:text-black hover:bg-gray-200 transition-colors duration-200"
             aria-label="TikTok"
           >
             {socialIcons.tiktok}
