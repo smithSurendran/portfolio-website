@@ -47,7 +47,7 @@ export default function Hero({ regionOverride }: HeroProps){
                     </h1>
                     {/* Subheadline */}
                     <p className="text-xl md:text-2xl mb-10 text-blue-50 font-light">
-                        Expert guidance, personalized solutions, and exceptional service for all your mortage needs.
+                        Expert guidance, personalized solutions, and exceptional service for all your mortgage needs.
                     </p>
 
                     {/* CTA Button */}

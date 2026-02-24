@@ -32,7 +32,7 @@ const socialIcons = {
 }
 
 export default function IdentityCard() {
-  const { name, title, credentials, photo, contact, social } = profileConfig
+  const { name, title, credentials, photo, contact, social, company } = profileConfig
 
   const handleContactClick = (type: string) => {
     if (typeof window !== 'undefined' && window.gtag) {
@@ -71,6 +71,7 @@ export default function IdentityCard() {
         </h2>
         <p className="text-lg text-gray-600 font-medium mb-1">{title}</p>
         <p className="text-sm text-gray-500">{credentials}</p>
+        <p className="text-sm text-gray-500">{company.name} | {company.nmls}</p>
       </div>
 
       {/* Divider */}

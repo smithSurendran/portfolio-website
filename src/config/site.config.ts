@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: 'Joseph Cherian - Mortgage Loan Officer',
+  name: 'Joseph Cherian - GoRascal Mortgage',
   logo: 'JC',
   url: process.env.NEXT_PUBLIC_SITE_URL || 'https://yoursite.com',
   description: 'Expert mortgage guidance and personalized financing solutions for New Jersey homebuyers.',

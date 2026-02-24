@@ -1,4 +1,5 @@
 import Hero from '@/components/home/Hero'
+import PurchaseRefinanceOptions from '@/components/home/PurchaseRefinanceOptions'
 import IdentityCard from '@/components/home/IdentityCard'
 import QRBlock from '@/components/home/QRBlock'
 // import ServicesPreview from '@/components/home/ServicesPreview'
@@ -13,6 +14,7 @@ export default function HomePage() {
   return (
     <>
       <Hero />
+      <PurchaseRefinanceOptions />
       
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
